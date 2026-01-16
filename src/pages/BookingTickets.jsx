@@ -48,7 +48,7 @@ const BookingTickets = () => {
         quantity: count,
 
         // Charges
-        gst: 225,
+        gst: selectedTicket.price * count * 0.18,
         bookingFee: 73,
       },
     });
